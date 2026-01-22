@@ -1,0 +1,6 @@
+import numpy as np
+ab=np.array([1,2,3,4,4,5,5,7,8])
+ab1=np.sort(ab)
+print(ab1)
+ab2=np.unique(ab)
+print(ab2)
