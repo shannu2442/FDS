@@ -1,0 +1,17 @@
+import numpy as np
+ab=np.array([5,12,65,89,32,2])
+print("Original Array")
+print(ab)
+abm=ab.copy()
+abm[abm>10]=10
+print(abm)
+abm2=ab.copy()
+abm2[abm<5]=0
+print(abm2)
+print("where function")
+abm3=np.where(ab>10,10,abm)
+print(abm3)
+abm4=np.where(ab<10,10,abm2)
+print(abm4)
+abm5=np.where(ab<=10,10,abm)
+print(abm5)
